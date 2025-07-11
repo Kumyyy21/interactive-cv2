@@ -14,3 +14,52 @@
   opacity: 1;
   transform: translateY(0px);
 }
+
+/* Tambahan CSS untuk hamburger menu */
+
+/* Animasi untuk ikon hamburger */
+.hamburger-line {
+  background-color: #333; /* Warna garis hamburger */
+  height: 3px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-line:nth-child(1).open {
+  transform: translateY(11px) rotate(45deg);
+}
+
+.hamburger-line:nth-child(2).open {
+  opacity: 0;
+}
+
+.hamburger-line:nth-child(3).open {
+  transform: translateY(-11px) rotate(-45deg);
+}
+
+/* Animasi overlay menu mobile */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.mobile-menu-overlay {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+.mobile-menu-overlay.closed {
+  animation: slideOut 0.3s ease-in forwards;
+}
