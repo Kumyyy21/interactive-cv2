@@ -5,7 +5,7 @@
         Halo, Saya <span class="text-blue-600">Nama Anda</span>
       </h1>
       <p class="text-xl text-gray-600 mb-8 animate-slide-in-left" style="animation-delay: 400ms;">
-        Mahasiswa Teknik Informatika yang bersemangat dalam pengembangan web dan desain antarmuka.
+        Mahasiswa Informatika yang bersemangat dalam pengembangan web dan desain antarmuka.
       </p>
       <a href="#kontak" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300 inline-block animate-slide-in-left" style="animation-delay: 600ms;">
         Hubungi Saya
